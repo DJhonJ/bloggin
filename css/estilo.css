@@ -1,5 +1,30 @@
 body {
-    text-align: center;
-    font-family: Consolas;
-    color:  fuchsia;
+    font-family: "Consolas";
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+header {
+    background: blueviolet;
+    padding: 1rem;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#container {
+    border: 1px solid #3b3b3b;
+    width: 50%;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem auto;
 }
